@@ -1,0 +1,113 @@
+/* GENERAL STYLING */
+body {
+  font-size: 16px;
+  margin-top: 10vw;
+  margin-bottom: 10dvw;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  
+  background-image: url('https://www.shutterstock.com/shutterstock/videos/3596505823/thumb/1.jpg?ip=x480');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  color: rgb(30, 3, 38);
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: "Bitcount Grid Single", system-ui;
+  font-optical-sizing: small;
+  font-weight: 500;
+
+  color: #ffffff;
+}
+h2 {
+  font-size: 2rem;
+  font-family: "Bitcount Grid Single", system-ui;
+  font-optical-sizing: small;
+  font-weight: 400;
+
+  color: #ffffff;
+}
+h3 {
+  font-size: 1.5rem;
+  font-family: "Bitcount Grid Single", system-ui;
+  font-optical-sizing: small;
+  font-weight: 400;
+
+  color: #ffffff;
+}
+
+.paragraph {
+  font-size: 1rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+
+  padding: 0.5rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+
+dl{
+  padding: 0.5rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+
+footer {
+  font-size: 0.8rem;
+}
+
+/* ADDITIONAL CLASSES */
+.intro {
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+}
+
+.small {
+  font-size: 0.75rem;
+  margin-left: 20%;
+}
+
+.large {
+  font-size: 2rem;
+  letter-spacing: -0.03rem;
+  line-height: 0.9;
+}
+
+.two_col {
+  column-count: 2;
+  column-gap: 0.3rem;
+}
+
+.four_col {
+  column-count: 4;
+  column-gap: 0.7rem;
+}
+
+nav{
+  padding: 0.5rem;
+  background-color: rgb(247, 90, 173);
+  border-radius: 1rem;
+}
+
+ol,a{
+  color: #ffffff;
+  text-decoration: none;
+
+}
+
+a:hover{
+  color: rgb(30, 3, 38);
+  font-size: 25px;
+  font-weight: 600;
+}
